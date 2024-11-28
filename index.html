@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Meu Portfólio</title>
+  </head>
+  <body>
+    <header>
+      <h1>Meu Nome</h1>
+      <nav>
+        <ul>
+          <li><a href="#sobre">Sobre Mim</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>
+          Olá, meu nome é [Seu Nome]. Sou um(a) desenvolvedor(a) web
+          apaixonado(a) por criar experiências digitais incríveis. Tenho
+          experiência em [suas tecnologias] e estou sempre buscando novos
+          desafios.
+        </p>
+        <img src="sua-foto.jpg" alt="Sua foto" />
+      </section>
+
+      <section id="projetos">
+        <h2>Projetos</h2>
+        <div class="projeto">
+          <img src="imagem-projeto-1.jpg" alt="Projeto 1" />
+          <h3>[Nome do Projeto 1]</h3>
+          <p>Descrição do projeto 1.</p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section id="icon">
+        <div class="social-icons">
+          <a href="https://www.gmail.com/">
+            <img src="img/gmail.png" alt="">
+          </a>
+          <a href="https://www.instagram.com/">
+            <img src="img/instagram.png" alt="">
+          </a>
+          <a href="https://www.whatsapp.com/">
+            <img src="img/whats.png" alt="">
+          </a>
+        </div>
+
+      </section>
+      <section id="contato">
+        <form>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required />
+
+          <label for="email">Email:</label>
+
+          <input type="email" id="email" name="email" required />
+
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" required></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+      <section id="copy">
+        <p>&copy; 2024 Seu Nome. Todos os direitos reservados.</p>
+      </section>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
